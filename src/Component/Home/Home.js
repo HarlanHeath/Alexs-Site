@@ -3,6 +3,12 @@ import "./Home.css";
 
 export default class Home extends Component {
   render() {
-    return <div>I'm the Home page, choo choo!</div>;
+    return (
+      <div className="home-body">
+        <div className="about-body" />
+        <div className="photo" />
+        <p> About mizzle fo shizzle </p>
+      </div>
+    );
   }
 }

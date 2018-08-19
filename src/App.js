@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Nav from "./Component/Nav/Nav";
-import Home from "./Component/Home/Home";
+import { HashRouter } from "react-router-dom";
+import routes from "./routes";
 import "./App.css";
 
 class App extends Component {
@@ -8,8 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <Nav />
-        <Home />
-        I'm Alex's site!
+        {routes}
       </div>
     );
   }

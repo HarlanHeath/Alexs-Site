@@ -1,3 +1,15 @@
 * {
   margin: 0;
 }
+
+.home-body {
+  height: 100vh;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.photo {
+  max-width: 100%;
+  max-width: 100%;
+  background-image: url("https://scontent-dfw5-2.xx.fbcdn.net/v/t31.0-8/28336161_10212207872447612_1291563115262879283_o.jpg?_nc_cat=0&oh=ca2854ed829639a9346af37c578b569a&oe=5C0545D4");
+}
