@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+
+.nav-body {
+  margin: 0px;
+  width: 100vw;
+  height: 55px;
+  background-color: slategray;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+
+.nav-contain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+
+.site-name {
+  font-family: "Lobster", cursive;
+}
